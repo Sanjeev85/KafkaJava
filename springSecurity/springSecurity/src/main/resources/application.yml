@@ -1,0 +1,13 @@
+#spring:
+#  security:
+#    user:
+#      name: hello
+#      password: hello
+spring:
+  datasource:
+    password: root1
+    username: root1
+    url: jdbc:mysql://localhost:3306/springbootTest
+  jpa:
+    hibernate:
+      ddl-auto: update
